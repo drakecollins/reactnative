@@ -51,7 +51,7 @@ function RenderComments({comments}) {
             keyExtractor={item => item.id.toString()}
             />
         </Card>
-    )
+    );
 
 }
 
