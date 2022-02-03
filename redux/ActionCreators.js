@@ -1,5 +1,6 @@
 import * as ActionTypes from './ActionTypes';
 import { baseUrl } from '../shared/baseUrl';
+import { setState } from 'expo-status-bar';
 
 export const fetchComments = () => dispatch => {
     return fetch(baseUrl + 'comments')
@@ -152,3 +153,25 @@ export const addFavorite = campsiteId => ({
     type: ActionTypes.ADD_FAVORITE,
     payload: campsiteId
 });
+
+export const postComment = campsiteId => dispatch => {
+    setTimeout(() => {
+        dispatch(postComment(campsiteId));
+    },2000);
+    Dispatch
+};
+
+export const addComment = {
+    campsiteId,
+    rating,
+    author,
+    text,
+};
+
+export const newComment = {
+    campsiteId,
+    rating,
+    author,
+    text,
+    date();
+};

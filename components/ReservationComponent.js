@@ -144,23 +144,6 @@ const styles = StyleSheet.create({
     },
     formItem: {
         flex: 1
-    }
-});
-
-const styles = StyleSheet.create({
-    formRow: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        flex: 1,
-        flexDirection: 'row',
-        margin: 20
-    },
-    formLabel: {
-        fontSize: 18,
-        flex: 2
-    },
-    formItem: {
-        flex: 1
     },
     modal: {
         justifyContent: 'center',
@@ -172,7 +155,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#5637DD',
         textAlign: 'center',
         color: '#fff',
-        marginBottum: 20
+        marginBottom: 20
     },
     modalText: {
         fontSize: 18,
